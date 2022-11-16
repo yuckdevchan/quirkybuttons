@@ -59,3 +59,27 @@ body {
 -ms-transform: scale(-1, 1);
 transform: scale(-1, 1);
       }
+
+.standardplus {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-family: reemkufi;
+    transition: 0.3s;
+    color: black;
+}
+
+.standardplus:hover {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 500px;
+    height: 200px;
+    font-size: 25px;
+    font-family: reemkufi;
+    transition: 0.3s;
+    color: black;
+}
