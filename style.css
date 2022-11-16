@@ -1,0 +1,29 @@
+@font-face {
+    font-family: reemkufi;
+    src: url(reemkufi.ttf);
+  }
+
+body {
+    background-color: ghostwhite;
+}
+
+button {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-family: reemkufi;
+    transition: 0.3s;
+}
+
+button:hover {
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    font-size: 60px;
+    filter: invert(1);
+    font-family: reemkufi;
+    transform: rotateZ(45deg);
+}
