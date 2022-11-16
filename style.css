@@ -53,6 +53,29 @@ body {
     transform: rotateX(180deg);
 }
 
+.flipxaxis {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-family: reemkufi;
+    transition: 1s;
+}
+
+.flipxaxis:hover {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-family: reemkufi;
+    transition: 1s;
+    transform: rotateY(180deg);
+}
+
 .backwards {
         -moz-transform: scale(-1, 1);
 -webkit-transform: scale(-1, 1);
