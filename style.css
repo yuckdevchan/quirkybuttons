@@ -37,7 +37,7 @@ body {
     height: 100px;
     font-size: 25px;
     font-family: reemkufi;
-    transition: 0.3s;
+    transition: 1s;
 }
 
 .flipyaxis:hover {
@@ -48,7 +48,7 @@ body {
     height: 200px;
     font-size: 25px;
     font-family: reemkufi;
-    transition: 0.3s;
+    transition: 1s;
     transform: rotateX(180deg);
 }
 
