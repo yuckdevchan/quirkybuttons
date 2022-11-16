@@ -28,7 +28,7 @@ body {
     transform: rotateZ(45deg);
 }
 
-flipyaxis {
+.flipyaxis {
     border-radius: 15px;
     border-color: darkslategray;
     background-color: ghostwhite;
@@ -39,7 +39,7 @@ flipyaxis {
     transition: 0.3s;
 }
 
-flipyaxis:hover {
+.flipyaxis:hover {
     border-radius: 15px;
     border-color: darkslategray;
     background-color: ghostwhite;
