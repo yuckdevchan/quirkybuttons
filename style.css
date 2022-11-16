@@ -16,6 +16,7 @@ body {
     font-size: 25px;
     font-family: reemkufi;
     transition: 0.3s;
+    color: black;
 }
 
 .rotateandinvert:hover {
