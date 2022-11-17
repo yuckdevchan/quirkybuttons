@@ -8,6 +8,10 @@ body {
     font-family: reemkufi;
 }
 
+a {
+    color: ghostwhite;
+}
+
 .rotateandinvert {
     border-radius: 15px;
     border-color: darkslategray;
@@ -142,4 +146,30 @@ transform: scale(-1, 1);
     transition: 0.3s;
     color: black;
     transform: rotateZ(180deg);
+}
+
+.thick {
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    font-size: 50px;
+    font-family: reemkufi;
+    transition: 0.3s;
+    color: black;
+}
+
+.thick:hover {
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    font-size: 50px;
+    font-family: reemkufi;
+    transition: 0.3s;
+    color: black;
 }
