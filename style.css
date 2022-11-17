@@ -118,3 +118,28 @@ transform: scale(-1, 1);
     font-size: 25px;
     font-family: reemkufi;
 }
+
+.upsidedown {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    font-family: reemkufi;
+    transition: 0.3s;
+    color: black;
+}
+
+.upsidedown:hover {
+    border-radius: 15px;
+    border-color: darkslategray;
+    background-color: ghostwhite;
+    width: 350px;
+    height: 200px;
+    font-size: 50px;
+    font-family: reemkufi;
+    transition: 0.3s;
+    color: black;
+    transform: rotateZ(180deg);
+}
