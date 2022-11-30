@@ -12,6 +12,10 @@ a {
     color: ghostwhite;
 }
 
+p {
+    color: ghostwhite;
+}
+
 .rotateandinvert {
     border-radius: 15px;
     border-color: darkslategray;
